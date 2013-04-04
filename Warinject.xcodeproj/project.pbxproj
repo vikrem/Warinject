@@ -1,0 +1,300 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CEDB889E170D014300D3290D /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEDB889D170D014300D3290D /* Cocoa.framework */; };
+		CEDB88A8170D014300D3290D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CEDB88A6170D014300D3290D /* InfoPlist.strings */; };
+		CEDB88AA170D014300D3290D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CEDB88A9170D014300D3290D /* main.m */; };
+		CEDB88AE170D014300D3290D /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = CEDB88AC170D014300D3290D /* Credits.rtf */; };
+		CEDB88B1170D014300D3290D /* CAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CEDB88B0170D014300D3290D /* CAppDelegate.m */; };
+		CEDB88B4170D014300D3290D /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = CEDB88B2170D014300D3290D /* MainMenu.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CEDB8899170D014300D3290D /* Warinject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Warinject.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEDB889D170D014300D3290D /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		CEDB88A0170D014300D3290D /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		CEDB88A1170D014300D3290D /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		CEDB88A2170D014300D3290D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CEDB88A5170D014300D3290D /* Warinject-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Warinject-Info.plist"; sourceTree = "<group>"; };
+		CEDB88A7170D014300D3290D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CEDB88A9170D014300D3290D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CEDB88AB170D014300D3290D /* Warinject-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Warinject-Prefix.pch"; sourceTree = "<group>"; };
+		CEDB88AD170D014300D3290D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		CEDB88AF170D014300D3290D /* CAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CAppDelegate.h; sourceTree = "<group>"; };
+		CEDB88B0170D014300D3290D /* CAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CAppDelegate.m; sourceTree = "<group>"; };
+		CEDB88B3170D014300D3290D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CEDB8896170D014300D3290D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEDB889E170D014300D3290D /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CEDB888E170D014300D3290D = {
+			isa = PBXGroup;
+			children = (
+				CEDB88A3170D014300D3290D /* Warinject */,
+				CEDB889C170D014300D3290D /* Frameworks */,
+				CEDB889A170D014300D3290D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CEDB889A170D014300D3290D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CEDB8899170D014300D3290D /* Warinject.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CEDB889C170D014300D3290D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CEDB889D170D014300D3290D /* Cocoa.framework */,
+				CEDB889F170D014300D3290D /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CEDB889F170D014300D3290D /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CEDB88A0170D014300D3290D /* AppKit.framework */,
+				CEDB88A1170D014300D3290D /* CoreData.framework */,
+				CEDB88A2170D014300D3290D /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		CEDB88A3170D014300D3290D /* Warinject */ = {
+			isa = PBXGroup;
+			children = (
+				CEDB88AF170D014300D3290D /* CAppDelegate.h */,
+				CEDB88B0170D014300D3290D /* CAppDelegate.m */,
+				CEDB88B2170D014300D3290D /* MainMenu.xib */,
+				CEDB88A4170D014300D3290D /* Supporting Files */,
+			);
+			path = Warinject;
+			sourceTree = "<group>";
+		};
+		CEDB88A4170D014300D3290D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CEDB88A5170D014300D3290D /* Warinject-Info.plist */,
+				CEDB88A6170D014300D3290D /* InfoPlist.strings */,
+				CEDB88A9170D014300D3290D /* main.m */,
+				CEDB88AB170D014300D3290D /* Warinject-Prefix.pch */,
+				CEDB88AC170D014300D3290D /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CEDB8898170D014300D3290D /* Warinject */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEDB88B7170D014300D3290D /* Build configuration list for PBXNativeTarget "Warinject" */;
+			buildPhases = (
+				CEDB8895170D014300D3290D /* Sources */,
+				CEDB8896170D014300D3290D /* Frameworks */,
+				CEDB8897170D014300D3290D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Warinject;
+			productName = Warinject;
+			productReference = CEDB8899170D014300D3290D /* Warinject.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CEDB8890170D014300D3290D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = C;
+				LastUpgradeCheck = 0440;
+			};
+			buildConfigurationList = CEDB8893170D014300D3290D /* Build configuration list for PBXProject "Warinject" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CEDB888E170D014300D3290D;
+			productRefGroup = CEDB889A170D014300D3290D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CEDB8898170D014300D3290D /* Warinject */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CEDB8897170D014300D3290D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEDB88A8170D014300D3290D /* InfoPlist.strings in Resources */,
+				CEDB88AE170D014300D3290D /* Credits.rtf in Resources */,
+				CEDB88B4170D014300D3290D /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CEDB8895170D014300D3290D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEDB88AA170D014300D3290D /* main.m in Sources */,
+				CEDB88B1170D014300D3290D /* CAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CEDB88A6170D014300D3290D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEDB88A7170D014300D3290D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		CEDB88AC170D014300D3290D /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEDB88AD170D014300D3290D /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		CEDB88B2170D014300D3290D /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEDB88B3170D014300D3290D /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CEDB88B5170D014300D3290D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		CEDB88B6170D014300D3290D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		CEDB88B8170D014300D3290D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Warinject/Warinject-Prefix.pch";
+				INFOPLIST_FILE = "Warinject/Warinject-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CEDB88B9170D014300D3290D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Warinject/Warinject-Prefix.pch";
+				INFOPLIST_FILE = "Warinject/Warinject-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CEDB8893170D014300D3290D /* Build configuration list for PBXProject "Warinject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEDB88B5170D014300D3290D /* Debug */,
+				CEDB88B6170D014300D3290D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEDB88B7170D014300D3290D /* Build configuration list for PBXNativeTarget "Warinject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEDB88B8170D014300D3290D /* Debug */,
+				CEDB88B9170D014300D3290D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CEDB8890170D014300D3290D /* Project object */;
+}
