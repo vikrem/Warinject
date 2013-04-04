@@ -10,7 +10,6 @@
 		CEDB889E170D014300D3290D /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEDB889D170D014300D3290D /* Cocoa.framework */; };
 		CEDB88A8170D014300D3290D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CEDB88A6170D014300D3290D /* InfoPlist.strings */; };
 		CEDB88AA170D014300D3290D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CEDB88A9170D014300D3290D /* main.m */; };
-		CEDB88AE170D014300D3290D /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = CEDB88AC170D014300D3290D /* Credits.rtf */; };
 		CEDB88B1170D014300D3290D /* CAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CEDB88B0170D014300D3290D /* CAppDelegate.m */; };
 		CEDB88B4170D014300D3290D /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = CEDB88B2170D014300D3290D /* MainMenu.xib */; };
 /* End PBXBuildFile section */
@@ -25,7 +24,6 @@
 		CEDB88A7170D014300D3290D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		CEDB88A9170D014300D3290D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		CEDB88AB170D014300D3290D /* Warinject-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Warinject-Prefix.pch"; sourceTree = "<group>"; };
-		CEDB88AD170D014300D3290D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
 		CEDB88AF170D014300D3290D /* CAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CAppDelegate.h; sourceTree = "<group>"; };
 		CEDB88B0170D014300D3290D /* CAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CAppDelegate.m; sourceTree = "<group>"; };
 		CEDB88B3170D014300D3290D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
@@ -97,7 +95,6 @@
 				CEDB88A6170D014300D3290D /* InfoPlist.strings */,
 				CEDB88A9170D014300D3290D /* main.m */,
 				CEDB88AB170D014300D3290D /* Warinject-Prefix.pch */,
-				CEDB88AC170D014300D3290D /* Credits.rtf */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -154,7 +151,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				CEDB88A8170D014300D3290D /* InfoPlist.strings in Resources */,
-				CEDB88AE170D014300D3290D /* Credits.rtf in Resources */,
 				CEDB88B4170D014300D3290D /* MainMenu.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -180,14 +176,6 @@
 				CEDB88A7170D014300D3290D /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		CEDB88AC170D014300D3290D /* Credits.rtf */ = {
-			isa = PBXVariantGroup;
-			children = (
-				CEDB88AD170D014300D3290D /* en */,
-			);
-			name = Credits.rtf;
 			sourceTree = "<group>";
 		};
 		CEDB88B2170D014300D3290D /* MainMenu.xib */ = {
