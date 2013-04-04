@@ -15,4 +15,7 @@
 - (IBAction)UpdateLDPath:(id)sender;
 - (IBAction)Inject:(id)sender;
 
+@property (nonatomic, retain) NSString *WSWPath;
+@property (nonatomic, retain) NSString *LDPath;
+
 @end
