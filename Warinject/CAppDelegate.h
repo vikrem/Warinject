@@ -11,5 +11,8 @@
 @interface CAppDelegate : NSObject <NSApplicationDelegate>
 
 @property (assign) IBOutlet NSWindow *window;
+- (IBAction)UpdateWSWPath:(id)sender;
+- (IBAction)UpdateLDPath:(id)sender;
+- (IBAction)Inject:(id)sender;
 
 @end

@@ -15,4 +15,12 @@
     // Insert code here to initialize your application
 }
 
+- (IBAction)UpdateWSWPath:(id)sender {
+}
+
+- (IBAction)UpdateLDPath:(id)sender {
+}
+
+- (IBAction)Inject:(id)sender {
+}
 @end
