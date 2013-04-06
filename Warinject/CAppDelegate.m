@@ -9,7 +9,6 @@
 #import "CAppDelegate.h"
 
 
-
 @implementation CAppDelegate
 
 
@@ -18,6 +17,13 @@
 {
     _WSWPath = _LDPath = NULL;
     
+}
+
+void alertUser() {
+    NSAlert *alert = [[NSAlert alloc] init];
+    [alert setAlertStyle:NSCriticalAlertStyle];
+    [alert setMessageText:@"Warsow path or hack path invalid!"];
+    [alert runModal];
 }
 
 - (IBAction)UpdateWSWPath:(id)sender {
@@ -33,7 +39,20 @@
 }
 
 - (IBAction)Inject:(id)sender {
-    NSLog(@"DYLD_INSERT_LIBRARIES=\"%@\" DYLD_FORCE_FLAT_NAMESPACE= %@", _WSWPath, _LDPath);
+    if(_LDPath == NULL || _WSWPath == NULL)
+    {
+        
+        alertUser();
+        return;
+    }
+    
+    NSString *tempAppPath = [NSString stringWithFormat:@"%@/Contents/MacOS/Warsow SDL", _WSWPath];
+    
+    NSString *execPath = [NSString stringWithFormat:@"DYLD_INSERT_LIBRARIES=\"%@\" DYLD_FORCE_FLAT_NAMESPACE= \"%@\"",
+                          _LDPath,
+                          tempAppPath];
+    
+    system( [execPath UTF8String] );
 }
 
 
